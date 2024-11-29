@@ -1,0 +1,48 @@
+/* Fontes externa */
+/* Fonte 1: Belleza */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+/* Fonte 2: Fahkwang */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: #ceb1be;
+    font-size: 16px;
+    /* espaçamentos do topo e da parte debaixo da página */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Belleza';
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+p, li {
+    font-family: 'Fahkwang';
+    text-align: justify;
+}
+
+main {
+    /* estilizando o fundo branco */
+    background-color: #e2dcde;
+    border: 1.5px solid #2d2d34;
+    width: 1050px;
+    padding: 60px;
+    margin: auto;
+}
+
+/* class criada SOMENTE pra centralizar a imagem */
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
