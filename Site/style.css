@@ -13,13 +13,15 @@ body {
     padding-bottom: 50px;
 }
 
-h1, h2, h3 {
-    font-family: 'Belleza';
-    font-weight: 400;
-}
-
 h1, h2 {
     text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Fahkwang';
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 h3 {
